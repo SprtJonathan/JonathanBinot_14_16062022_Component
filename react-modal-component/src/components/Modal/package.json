@@ -1,0 +1,14 @@
+{
+  "name": "react-modal-component-hrnet",
+  "version": "1.0.0",
+  "description": "A modal component used to display pop-up messages in a React project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SprtJonathan",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
