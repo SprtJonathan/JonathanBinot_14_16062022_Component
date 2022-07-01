@@ -1,4 +1,4 @@
-import "./index.css";
+import "./modal.css";
 
 /* This component is a customizable modal component that displays a block on top of the page when triggered by a state */
 function Modal(props) {

@@ -1,10 +1,14 @@
 {
   "name": "react-modal-component-hrnet",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A modal component used to display pop-up messages in a React project",
-  "main": "index.js",
+  "main": "Modal.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SprtJonathan/JonathanBinot_14_16062022_Component.git"
   },
   "author": "SprtJonathan",
   "license": "ISC",
