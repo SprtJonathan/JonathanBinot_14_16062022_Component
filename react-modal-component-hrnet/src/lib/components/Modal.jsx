@@ -1,7 +1,8 @@
+import React from "react";
 import "./modal.css";
 
 /* This component is a customizable modal component that displays a block on top of the page when triggered by a state */
-function Modal(props) {
+const Modal = (props) => {
   const modalTitle = props.title; // The title / header of the modal
   const modalBody = props.body; // The body of the modal
   const showModal = props.showModal; // The state that displays the modal
@@ -62,6 +63,6 @@ function Modal(props) {
       </div>
     </div>
   );
-}
+};
 
 export default Modal;

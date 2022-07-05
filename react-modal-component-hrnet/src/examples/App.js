@@ -1,9 +1,7 @@
-import { useState } from "react";
-import Modal from "./components/Modal/Modal";
+import React, { useState } from "react";
+import Modal from "../lib";
 
-import "./App.css";
-
-function App() {
+const App = () => {
   const [displayModal, setDisplayModal] = useState(false);
   return (
     <div className="App">
@@ -27,6 +25,6 @@ function App() {
       )}
     </div>
   );
-}
+};
 
 export default App;
