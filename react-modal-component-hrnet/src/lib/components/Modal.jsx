@@ -5,6 +5,7 @@ import "./modal.css";
 const Modal = (props) => {
   const modalTitle = props.title; // The title / header of the modal
   const modalBody = props.body; // The body of the modal
+  const modalCloseButton = props.closeButton; // The close button of the modal (can be a "X" or any other text you want)
   const showModal = props.showModal; // The state that displays the modal
   const titleColor = props.titleColor; // The color of the modal title
   const headerBackgroundColor = props.headerBackgroundColor; // The color of the modal header background
@@ -14,6 +15,7 @@ const Modal = (props) => {
 
   console.log(headerBackgroundColor);
 
+  /* Returning a modal component that is customizable. */
   return (
     <div className="modal-blur-background">
       <div
@@ -39,7 +41,7 @@ const Modal = (props) => {
           </span>
           {/* This element is a button used to close the modal */}
           <span className="modal-close-button" onClick={() => showModal(false)}>
-            X
+            {modalCloseButton}
           </span>
         </div>
         {modalBody && (
