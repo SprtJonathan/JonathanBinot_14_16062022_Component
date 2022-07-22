@@ -1,6 +1,6 @@
 {
   "name": "react-modal-component-hrnet",
-  "version": "1.0.6",
+  "version": "1.1.2",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "files": [
@@ -8,11 +8,13 @@
     "README.md"
   ],
   "devDependencies": {
-    "babel-cli": "^6.26.0",
+    "@babel/core": "^7.0.0-rc.1",
+    "@babel/preset-env": "^7.0.0-rc.1",
+    "@babel/preset-react": "^7.0.0-rc.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1",
-    "react-test-renderer": "^16.3.2"
+    "webpack": "^4.29.6"
   },
   "peerDependencies": {
     "react": "^18.2.0",
@@ -23,10 +25,22 @@
     "build-examples": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "build": "del -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__"
+    "build": "NODE_ENV=production babel src/lib --out-dir dist --copy-files "
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/SprtJonathan/JonathanBinot_14_16062022_Component"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

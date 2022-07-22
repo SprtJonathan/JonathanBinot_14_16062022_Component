@@ -12,8 +12,6 @@ const Modal = (props) => {
   const bodyBackgroundColor = props.bodyBackgroundColor; // The color of the modal header background
   const modalBackgroundColor = props.modalBackgroundColor; // The color of the modal header background
 
-  console.log(headerBackgroundColor);
-
   /* Returning a modal component that is customizable. */
   return (
     <div className="modal-blur-background">

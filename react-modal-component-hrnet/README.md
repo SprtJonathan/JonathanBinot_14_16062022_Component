@@ -5,6 +5,7 @@ A simple modal React component created for the HRnet OpenClassrooms project
 ## Installation
 
 ```
+cd react-modal-component-hrnet
 npm install react-modal-component-hrnet
 ```
 

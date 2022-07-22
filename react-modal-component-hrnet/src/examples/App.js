@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Modal from "../lib";
 
 const App = () => {
@@ -18,8 +18,8 @@ const App = () => {
       "bodyBackgroundColor" for the header background color */}
       {displayModal && (
         <Modal
-          title="Employee Created!"
-          body="New employee created, you may now proceed to the employees list page"
+          title="Title test"
+          body="body test"
           showModal={setDisplayModal}
         />
       )}
